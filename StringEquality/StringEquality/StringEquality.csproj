@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{07B7DB34-E96A-4DB1-9C68-F04C031A48F9}</ProjectGuid>
+    <ProjectGuid>{567779D0-B48C-4533-A570-90C79B77A53E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Product</RootNamespace>
-    <AssemblyName>Product</AssemblyName>
+    <RootNamespace>StringEquality</RootNamespace>
+    <AssemblyName>StringEquality</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
