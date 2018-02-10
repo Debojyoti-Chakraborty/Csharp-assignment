@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+
 
 namespace SwichCase
 {
@@ -116,35 +115,38 @@ namespace SwichCase
 
             int choice=9;
             Console.WriteLine("Select option : \n1.Print type based list\n2. Print total price\n3. Print Average price\n4. Distinguish Costly and Cheap Products\n0. To Exit");
-            try
-            {
-                 choice = int.Parse(Console.ReadLine());
-            }
-            catch(Exception e)
-                {
-                Console.WriteLine("Enter Above Choices");
-                }
+            
+                
+
             while (choice != 0)
             {
-                switch (choice)
-                {
-                    case 1: Console.Clear(); TypeBased();break;
-                    case 2: Console.Clear(); TotalPrice();break;
-                    case 3: Console.Clear(); Average();break;
-                    case 4: Console.Clear(); Costly();break;
-                    default : Console.Clear();  Console.WriteLine("Enter Choice 1-4");break;
-
-                }
-                Console.WriteLine("Select option : \n1.Print type based list\n2. Print total price\n3. Print Average price\n4. Distinguish Costly and Cheap Products\n0. To Exit");
                 try
                 {
                     choice = int.Parse(Console.ReadLine());
+
+
+                    switch (choice)
+                    {
+                        case 0: Console.Clear(); break;
+                        case 1: Console.Clear(); TypeBased(); break;
+                        case 2: Console.Clear(); TotalPrice(); break;
+                        case 3: Console.Clear(); Average(); break;
+                        case 4: Console.Clear(); Costly(); break;
+                        default: Console.Clear(); Console.WriteLine("Enter Choice 1-4"); break;
+
+                    }
+                    Console.WriteLine("Select option : \n1.Print type based list\n2. Print total price\n3. Print Average price\n4. Distinguish Costly and Cheap Products\n0. To Exit");
                 }
-                catch(Exception e)
+                catch (Exception)
                 {
+                    
+
                     Console.WriteLine("Enter 1 of the Above Choices");
                 }
             }
         }
+            
     }
 }
+    
+
