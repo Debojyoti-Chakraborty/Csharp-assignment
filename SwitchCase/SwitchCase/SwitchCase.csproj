@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{46B001A7-17A2-4141-AFFD-95F3C070602F}</ProjectGuid>
+    <ProjectGuid>{88BF48B2-4425-4C45-8A50-32BA4B499C5D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>NumberEquality</RootNamespace>
-    <AssemblyName>NumberEquality</AssemblyName>
+    <RootNamespace>SwitchCase</RootNamespace>
+    <AssemblyName>SwitchCase</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
